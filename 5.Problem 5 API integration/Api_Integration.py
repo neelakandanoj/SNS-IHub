@@ -11,7 +11,7 @@ def fetch_news(topic):
     - list: A list of dictionaries containing news articles if successful; None if an error occurs.
     """
     # Define the API endpoint and parameters
-    api_key = "b02ded4ef5a6452793deff6719c0b6bd"  # Replace with your News API key
+    api_key = "Api_Key"  # Replace with your News API key
     url = "https://newsapi.org/v2/everything"
     params = {
         "q": topic,
